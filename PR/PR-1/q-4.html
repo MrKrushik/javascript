@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSwap Two Numbers(Q-4)</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            color: teal;
+        }
+
+        h2 {
+            color: maroon;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Swap Two Numbers withou using third variable and + - symbol</h1>
+    <script>
+        let a = +prompt("Enter a value")
+        let b = +prompt("Enter b value")
+
+        document.write(`<h2>Before Swap A : ${a}<br></h2>`)
+        document.write(`<h2>Before Swap B : ${b}<br></h2>`)
+
+        a = a * b; // a=50  b=10  => a=500
+        b = a / b; // a=500 b=10  => b=50
+        a = a / b; // a=500 b=50  => a=10
+
+        document.write(`<h2>After Swap A : ${a}<br></h2>`)
+        document.write(`<h2>After Swap B : ${b}<br></h2>`)
+
+    </script>
+</body>
+
+</html>
